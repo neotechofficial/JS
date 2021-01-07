@@ -52,7 +52,7 @@ function print(weatherJSON,getWeatherTab,getWeatherButton,resultTab){
                 </div>
                 <div class="row">
                     <div class="col-sm">
-                        ${(weatherJSON["main"]["temp"]-272.15).toPrecision(4)}
+                        ${(weatherJSON["main"]["temp"]-272.15).toPrecision(4)} °C
                     </div>
                 </div>
             </div>
