@@ -1,0 +1,23 @@
+#current:hover {
+	background-color: dodgerblue;
+}
+.form-control {
+	display: unset !important;
+}
+input[type="number"]:focus {
+	border: 0 !important;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.label {
+	line-height: 2.5;
+}
+#city {
+	text-transform: capitalize;
+}
+.hide {
+	display: none;
+}
