@@ -11,7 +11,7 @@ let word;
 const greetings=['Hi','Hi Nice to see you here.',"Hello there","Hey Welcome.","Hi, How are you?"];
 const place1=["I'm infront of you.","You are looking at me.","Maybe around 20-30 centimeters infront of you."];
 const place2=["You're infront of me.","I'm looking at you.","Maybe around 20-30 centimeters infront of me."];
-const months=["Janurary","February","March","April","May","June","July","August","September","October","November","December"];
+const months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 var date=new Date();
 example.addEventListener("click",()=>{
     carousel.classList.remove("d-none");
