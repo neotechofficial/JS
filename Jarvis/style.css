@@ -1,0 +1,81 @@
+.jarvis {
+	text-shadow: 1.5px 1.5px red;
+}
+.container {
+	align-items: center;
+}
+.centered {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.result-div {
+	align-items: center;
+}
+.result {
+	resize: none;
+	min-width: 25%;
+}
+textarea {
+	background-color: #007bff !important;
+	color: white;
+	border: 0;
+}
+textarea::-webkit-scrollbar {
+	-webkit-appearance: none;
+	appearance: none;
+}
+img.d-block.w-100 {
+	width: 80% !important;
+	position: relative;
+	left: 10%;
+}
+textarea:focus {
+	outline: none;
+}
+.msg {
+	position: relative;
+}
+.user {
+	position: relative;
+	left: 107.5vh;
+}
+.bot {
+	position: relative;
+	left: 0px;
+	border-radius: 5% 5% 5% 0%;
+}
+.result-bot::before {
+	content: "";
+	position: absolute;
+	height: 6px;
+	width: 10px;
+	background-color: #007bff !important;
+	left: -10px;
+	bottom: 5.4px;
+	border-radius: 100% 0% 0% 0%;
+}
+#message {
+	position: fixed;
+	top: 85vh;
+}
+#results {
+	min-height: 65vh;
+	max-height: 65vh;
+	overflow: scroll;
+}
+button#close {
+	position: relative;
+	right: 30px;
+}
+#results::-webkit-scrollbar {
+	-webkit-appearance: none;
+	appearance: none;
+}
+@media screen and (max-width: 480px) {
+	.user {
+		left: unset;
+		right: -23vh;
+	}
+}
